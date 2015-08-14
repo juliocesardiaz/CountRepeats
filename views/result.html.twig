@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+	<title>List of Anagrams</title>
+</head>
+<body>
+	<div class='container'>
+		{% if result == 0 %}
+			<h1>The String You entered does not contain the Word</h1>
+		{% else %}
+			<h1>The Amount of Times the word appears in the String is:</h1>
+			<h2>{{ result }}</h2>
+		{% endif %}
+		<form action='/'>
+			<button type='submit' class='btn-success'>Go Back</button>
+		</form>
+	</div>
+</body>
+</html>

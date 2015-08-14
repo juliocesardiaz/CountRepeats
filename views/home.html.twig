@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+	<title>Word Counter</title>
+</head>
+<body>
+	<div class='container'>
+		<h1>Word Counter</h1>
+		<h2>Enter a word and a string of words to check</h2>
+		<h2>how many times the word appears in the string:</h2>
+		<form action='/result'>
+			<div class='form-group'>
+				<label for='word'>Word to check:</label>
+				<input id='word' name='word' class='form-control' type='text'>
+			</div>
+			<div class='form-group'>
+				<label for='wordString'>String to check:</label>
+				<input id='wordString' name='wordString' class='form-control' type='text'>
+			</div>
+			<button type='submit' class='btn-success'>Find Amount of Repeats</button>
+		</form>
+	</div>
+</body>
+</html>
