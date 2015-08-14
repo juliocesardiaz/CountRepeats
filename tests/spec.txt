@@ -1,0 +1,12 @@
+1) Count one word in a string containing only one word
+	Input: an Input2: an
+	Output 1
+2) Count one word in a string containg two words 
+	Input: no  Input2: no way
+	Output: 1
+3)Count one word in a string containing three words
+	Input:bat Input2:The bat swung
+	Output: 1
+4)Count two words in a string with various words
+	Input:no Input2: No way man, no way
+	Output: 2
