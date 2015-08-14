@@ -10,3 +10,6 @@
 4)Count two words in a string with various words
 	Input:no Input2: No way man, no way
 	Output: 2
+5)Count multiple occurences in a string of a word
+	Input:hello Input2: hello john hello gabriel hello dog hello cat hello evil monster hello
+	Output: 6
