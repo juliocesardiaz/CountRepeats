@@ -13,7 +13,7 @@ _CountRepeats takes a word and a string and checks how many times the word appea
 * _Open Terminal_
 * _Install Composer. Instructions: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx_
 * _Run command :composer install_
-* _Enter the following command into termianl 'php -S localhost:8000'_
+* _Enter the following command into terminal 'php -S localhost:8000'_
 * _Open a web browser and type this into the address bar 'localhost:8000'_
 
 ## Technologies Used
