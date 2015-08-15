@@ -17,7 +17,7 @@
 				would not work as expected
 			*/
 			$pos = -1;
-			while(($pos = strpos(strtolower($stringToMatch), strtolower($wordToMatch), $pos + 1)) !== false) {
+			while(($pos = strpos(strtolower(" " . $stringToMatch . " "), strtolower($wordToMatch), $pos + 1)) !== false) {
 				$count += 1;
 			}
 			return $count;
