@@ -9,8 +9,7 @@
 		*/
 		function countRepeats($wordToMatch, $stringToMatch)
 		{
-			$count =  preg_match_all("/\b" . strtolower($wordToMatch) . "\b/", strtolower($stringToMatch));
-			return $count;
+			return preg_match_all("/\b" . strtolower($wordToMatch) . "\b/", strtolower($stringToMatch));
 		}
 	}
 ?>
